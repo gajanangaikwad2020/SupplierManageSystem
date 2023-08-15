@@ -10,6 +10,8 @@ public class StudentManApplication {
 		SpringApplication.run(StudentManApplication.class, args);
 		System.out.println("Supplier Started..");
 		System.out.println("Supplier Started Updated File..");
+		System.out.println("Supplier Started Local File Changes..");
+		
 		
 	}
 

@@ -36,7 +36,9 @@ public class SupplierController
 		boolean isAdded = supplierService.saveSupplier(supplier);	
 		if(isAdded)
 		{
+			System.out.println("New Supplier is Added.");
 			return new ResponseEntity<Boolean>(isAdded, HttpStatus.CREATED);
+			
 		}
 		else
 		{
