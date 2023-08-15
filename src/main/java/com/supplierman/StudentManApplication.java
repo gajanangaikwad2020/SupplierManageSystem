@@ -9,6 +9,8 @@ public class StudentManApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(StudentManApplication.class, args);
 		System.out.println("Supplier Started..");
+		System.out.println("Supplier Started Updated File..");
+		
 	}
 
 }
